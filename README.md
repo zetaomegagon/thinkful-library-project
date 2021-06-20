@@ -16,13 +16,13 @@ This project showcases a dashboard for a local neighborhood library. For the pur
 
 ## Overview
 
-The Local Library dashboar has three main components:
+The Local Library dashboard has three main components:
 
 1. General statistics such as the:
    - total books owned by the library,
    - `   "` books currently borrowed,
    - `   "` accounts registered with the library,
-   - and the `top 5` books by `Genre`, `Book`, and `Author`.
+   - and the *top 5* books by `Genre`, `Book`, and `Author`.
    
    These statistics are are produced in [/public/src/home.js](https://github.com/zetaomegagon/thinkful-library-project/blob/main/public/src/home.js)
 
@@ -65,11 +65,11 @@ Installing the library dashboard requires the following to be done:
 
 ### The install
 
-*Step 1:* once the requirements are met, navigate to the cloned repository folder and run the following, which should pull all necessary `node_modules` needed to run the webserver and run the code / display pages:
+**Step 1:** once the requirements are met, navigate to the cloned repository folder and run the following, which should pull all necessary `node_modules` needed to run the webserver and run the code / display pages:
 
     npm install
 
-*Step 2:* if the node modules install completes without error, you can start the webserver like this:
+**Step 2:** if the node modules install completes without error, you can start the webserver like this:
 
     npm start
 
