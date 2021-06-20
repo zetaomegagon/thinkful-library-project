@@ -2,11 +2,11 @@
 
 ## About this project
 
-This project showcases a dashboard for a local neighborhood library. The for purposes of keeping track of books, and trends in borrowing, the dashboard shows:
+This project showcases a dashboard for a local neighborhood library. For the purposes of keeping track of books and trends in borrowing, the dashboard shows:
 
 - which books are available,
 - which are currently out,
-- and other general statistics about the program.
+- and other general statistics about books and library account owners.
 
 ### Overview
 
@@ -37,9 +37,7 @@ The Local Library dashboar has three main components:
 
    These details are produced in `/public/src/accounts.js`.
 
-
-
-### Screenshots
+## Screenshots
 
 #### Overall Stats
 ![Overall Statistics Page](https://github.com/zetaomegagon/thinkful-library-project/blob/main/public/images/home.js.png)
