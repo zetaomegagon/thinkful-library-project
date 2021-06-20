@@ -8,7 +8,7 @@ This project showcases a dashboard for a local neighborhood library. For the pur
 - which are currently out,
 - and other general statistics about books and library account owners.
 
-### Overview
+## Overview
 
 The Local Library dashboar has three main components:
 
@@ -39,11 +39,11 @@ The Local Library dashboar has three main components:
 
 ## Screenshots
 
-#### Overall Stats
+### Overall Stats
 ![Overall Statistics Page](https://github.com/zetaomegagon/thinkful-library-project/blob/main/public/images/home.js.png)
 
-#### Book Information
+### Book Information
 ![Book Information Page](https://github.com/zetaomegagon/thinkful-library-project/blob/main/public/images/books.js.png)
 
-#### Account Information
+### Account Information
 ![Account Information Page](https://github.com/zetaomegagon/thinkful-library-project/blob/main/public/images/accounts.js.png)
