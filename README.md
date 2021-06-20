@@ -67,10 +67,10 @@ Installing the library dashboard requires the following to be done:
 
 *Step 1:* once the requirements are met, navigate to the cloned repository folder and run the following, which should pull all necessary `node_modules` needed to run the webserver and run the code / display pages:
 
-    `npm install`
+    npm install
 
 *Step 2:* if the node modules install completes without error, you can start the webserver like this:
 
-`npm start`
+    npm start
 
 This will launch a forground process in your shell wich you can kill with `ctrl-c`, or other means.
