@@ -14,8 +14,8 @@ The Local Library dashboar has three main components:
 
 1. General statistics such as the:
    - total books owned by the library,
-   -    `"` books currently borrowed,
-   -    `"` accounts registered with the library,
+   - `   "` books currently borrowed,
+   - `   "` accounts registered with the library,
    - and the `top 5` books by `Genre`, `Book`, and `Author`.
    
    These statistics are are produced in `/public/src/home.js`
