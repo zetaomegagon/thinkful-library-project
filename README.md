@@ -3,7 +3,7 @@
 ## Contents
 1. [About](https://github.com/zetaomegagon/thinkful-library-project#about-this-project)
 2. [Overview](https://github.com/zetaomegagon/thinkful-library-project#overview)
-3. [Sreenshots](https://github.com/zetaomegagon/thinkful-library-project#screenshots)
+3. [Screenshots](https://github.com/zetaomegagon/thinkful-library-project#screenshots)
 4. [Installation](https://github.com/zetaomegagon/thinkful-library-project#installation)
 
 ## About this project
