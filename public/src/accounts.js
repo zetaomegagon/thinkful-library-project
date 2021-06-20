@@ -7,9 +7,8 @@ function findAccountById(accounts, id) {
     // and an an account ID. Returns the account
     // object that matches the ID
     const accountObjectById = accounts.find((account) => id === account.id);
-    });
 
-    return accountById;
+    return accountObjectById;
 }
 
 function sortAccountsByLastName(accounts) {
@@ -77,7 +76,8 @@ function getBooksPossessedByAccount(account, books, authors) {
     // author information included in each book if the account
     // specified has any book currently checked out.
     const accountId = account.id;
-    const booksCheckedOutByAccountWithAuthorArray = books.reduce((acc,{ authorId, borrows }) => {
+    const booksCheckedOutByAccountWithAuthorArray = books.reduce((acc,book) => {
+	const { authorId, borrows } = book;
 	const borrowedEntry = borrows[0];
 	const didAccountBorrow = _includedInBorrowedEntryObject(borrowedEntry,accountId);
 	const isBorrowed = _includedInBorrowedEntryObject(borrowedEntry,false);
