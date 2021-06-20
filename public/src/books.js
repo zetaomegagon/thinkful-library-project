@@ -64,7 +64,7 @@ function getBorrowersForBook(book, accounts) {
     // consumes a book object, and an accounts array;
     // returns a new array of account objects with the
     // book return state embedded in them, for each account
-    // that has borrowd the book; limited to ten elements
+    // that has borrowed the book; limited to ten elements
     const { borrows } = book;
     const accountsByBookBorrowedState = accounts.reduce((acc,account) => {
 	const accountId = account.id;
