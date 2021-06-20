@@ -18,14 +18,14 @@ The Local Library dashboar has three main components:
    - `   "` accounts registered with the library,
    - and the `top 5` books by `Genre`, `Book`, and `Author`.
    
-   These statistics are are produced in `/public/src/home.js`
+   These statistics are are produced in [/public/src/home.js](https://github.com/zetaomegagon/thinkful-library-project/blob/main/public/src/home.js)
 
 2. The returned status of a book, as well as details about the book such as:
    - the book author,
    - it's genre,
    - and list of the ten most recent borrowers, with their returned status.
 
-   These details are produced in `/public/src/books.js`.
+   These details are produced in [/public/src/books.js](https://github.com/zetaomegagon/thinkful-library-project/blob/main/public/src/books.js).
 
 3. Finally, a listing of accounts subscribed to the library and per account details. Notably:
    - the name of the account owner,
@@ -35,7 +35,7 @@ The Local Library dashboar has three main components:
    - the amount of time the account owner borrowed a book,
    - and the current book checked out by the account owner.
 
-   These details are produced in `/public/src/accounts.js`.
+   These details are produced in [/public/src/accounts.js](https://github.com/zetaomegagon/thinkful-library-project/blob/main/public/src/accounts.js).
 
 ## Screenshots
 
