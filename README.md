@@ -1,5 +1,11 @@
 # Thinkful Local Library Project
 
+## Contents
+1. [About](https://github.com/zetaomegagon/thinkful-library-project#about-this-project)
+2. [Overview](https://github.com/zetaomegagon/thinkful-library-project#overview)
+3. [Sreenshots](https://github.com/zetaomegagon/thinkful-library-project#screenshots)
+4. [Installation](https://github.com/zetaomegagon/thinkful-library-project#installation)
+
 ## About this project
 
 This project showcases a dashboard for a local neighborhood library. For the purposes of keeping track of books and trends in borrowing, the dashboard shows:
@@ -54,16 +60,16 @@ The Local Library dashboar has three main components:
 
 Installing the library dashboard requires the following to be done:
 1. cloning this repository locally.
-2. installing `nvm` [posix](https://github.com/Neilpang/nvm) | [windows](https://duckduckgo.com/?kae=d&kn=1&kak=-1&kaq=-1&kp=-2&kah=wt-wt&k5=1&kw=w&kax=-1&kau=-1&kaj=m&k1=-1&kav=1&ku=1&kao=-1&kap=-1&kk=-1&kl=us-en&kad=us-en&kg=p&kd=-1&kam=osm&q=installing+nvm+on+windows).
+2. installing `nvm` ([posix](https://github.com/Neilpang/nvm) | [windows](https://duckduckgo.com/?kae=d&kn=1&kak=-1&kaq=-1&kp=-2&kah=wt-wt&k5=1&kw=w&kax=-1&kau=-1&kaj=m&k1=-1&kav=1&ku=1&kao=-1&kap=-1&kk=-1&kl=us-en&kad=us-en&kg=p&kd=-1&kam=osm&q=installing+nvm+on+windows)).
 3. using `nvm` to install `node`.
 
 ### The install
 
-1. Once the requirements are met, navigate to the cloned repository folder and run the following, which should pull all necessary `node_modules` needed to run the webserver and run the code / display pages:
+*Step 1:* once the requirements are met, navigate to the cloned repository folder and run the following, which should pull all necessary `node_modules` needed to run the webserver and run the code / display pages:
 
-`npm install`
+    `npm install`
 
-2. If the node modules install completes without error, you can start the webserver like this:
+*Step 2:* if the node modules install completes without error, you can start the webserver like this:
 
 `npm start`
 
